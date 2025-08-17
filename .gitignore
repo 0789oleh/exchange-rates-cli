@@ -1,0 +1,42 @@
+# Go-specific ignores
+# Скомпилированные бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Временные файлы Go
+*.test
+*.prof
+*.cover
+
+# Директория кэша Go
+go.sum
+go.work
+vendor/
+
+# Скомпилированный бинарный файл твоего приложения
+exchange-rate
+
+# Директория кэша приложения
+.cache/
+~/.cache/exchange-rate/
+
+# Логи и временные файлы
+*.log
+tmp/
+*.tmp
+
+# Файлы редакторов и IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# MacOS-specific
+.DS_Store
+
+# Директория для тестового покрытия
+coverage/
