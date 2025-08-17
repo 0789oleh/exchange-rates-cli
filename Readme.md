@@ -18,3 +18,13 @@ cd ./exchange-rates-cli
 ```bash 
 go build -o exchange-rates
 ```
+
+3. Run
+```bash
+./exchange-rate get --currency EUR 
+```
+
+4. Convetion between two foreign currencies
+```bash
+./exchange-rate convert -s USD -t EUR -a 1000
+```
